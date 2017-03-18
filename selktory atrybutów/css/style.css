@@ -1,0 +1,20 @@
+div[title] {
+	background-color: chartreuse;
+}
+
+div[suma="1500"] {
+	background-color: aqua;
+}
+
+div[class~="kluczowy"] {
+	background-color: darksalmon;
+}
+
+div[title^="key"] {
+	background-color: pink;
+}
+
+/*rozkminić czemu to nie działa*/
+div[title$="3"] {
+	background-color: #606060;
+}

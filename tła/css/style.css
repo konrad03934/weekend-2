@@ -1,0 +1,13 @@
+body {
+	background-color: lightgrey;
+}
+
+#pierwszy {
+	background-image: url("../img/tuskawka.jpg");
+	background-repeat: no-repeat;
+	background-position: 20% 10%;
+	background-size: 100%;
+	background-attachment: fixed;
+	color: #4a32cd;
+	
+}

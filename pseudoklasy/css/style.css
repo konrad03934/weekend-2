@@ -1,0 +1,45 @@
+a {
+	color: green;
+}
+
+a:visited {
+	color: blue;
+}
+
+
+
+a:hover {
+	color: brown;
+}
+
+a:active {
+	color: orange;
+}
+
+a:lang(pl) {
+	background-color: aqua;
+}
+
+/*ogarnąć to na spokojnie bo only child i empty było troch trudne*/
+#container p:last-child {
+	background-color: #324a1b;
+}
+
+#container p:first-child {
+	background-color: #6ad800;
+}
+
+
+.222 p:only-child {
+	background-color: darkblue;
+}
+#container p:empty::before {
+	content: "przed kontenerem";
+	color: blue;
+	height: 200px;
+	
+}
+
+#container p:nth-child(2n+2) {
+	background-color: coral;
+}

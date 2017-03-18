@@ -1,0 +1,28 @@
+
+#kontener {
+	display: inline-block;
+}
+
+
+#blokowy1 {
+	background-color: aquamarine;
+	
+}
+
+#blokowy2 {
+	background-color: #366c00;
+}
+
+#liniowo-blokowy1 {
+	background-color: cornflowerblue;
+}
+
+#liniowo-blokowy2 {
+	background-color: #be64ed;
+}
+
+.liniowo-blokowy {
+	text-align: center;
+	
+}
+

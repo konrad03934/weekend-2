@@ -1,0 +1,67 @@
+div {
+	left: 0;
+	right: 0;
+	margin: 0 auto;		
+}
+
+
+#box1 {
+	width: 150px;
+	height: 150px;
+	background-color: darkblue;
+	
+}
+
+#box1:hover {
+	width: 300px;
+	transition: width 0.7s ease-out;
+}
+
+#box2 {
+	width: 150px;
+	height: 150px;
+	background-color: #008b15;
+	
+}
+
+#box2:hover {
+	height: 300px;
+	transition: height 0.7s ease-out;
+	
+}
+
+#box3 {
+	width: 150px;
+	height: 150px;
+	background-color: #8b1b00;
+	
+}
+
+#box3:hover {
+	width: 300px;
+	height: 300px;
+	background-color: darkgreen;
+	transition: height 2.5s ease-out, width 1.3s linear;
+	transform: rotate(360deg);
+	transition: all 2s ease-out;
+	position: fixed;
+	top: 300px;
+}
+
+#box4 {
+	width: 150px;
+	height: 150px;
+	background-color: #8b8600;
+	position: absolute;
+	top: 460px;
+	z-index: -1;
+	
+}
+
+#box4:hover {
+	transform: rotate(180deg);
+	transition: all 2s ease-out;
+	z-index: 1;
+}
+/*zrobić tak żeby wszystkie się ruszały*/
+/*jak zrobić żeby hover był tylko szerokością*/

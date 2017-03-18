@@ -1,0 +1,15 @@
+.box {
+	height: 150px;
+	width: 500px;
+	padding: 50px;
+	border: 10px solid black;
+}
+
+#border-box {
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+#content-sizing {
+	box-sizing: content-box;
+}

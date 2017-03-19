@@ -1,11 +1,17 @@
 @media (min-width: 1168px) {
-	.box-1, .box-2, .box-3, .box-4 {
+	.box-1,
+	.box-2,
+	.box-3,
+	.box-4 {
 		width: 24%;
 	}
 }
 
 @media (min-width: 999px) and (max-width: 1167px) {
-	.box-1, .box-2, .box-3, .box-4 {
+	.box-1,
+	.box-2,
+	.box-3,
+	.box-4 {
 		width: 24%;
 		color: #c92727;
 		font-size: 1.3em;
@@ -13,11 +19,15 @@
 }
 
 @media (min-width: 769px) and (max-width: 998px) {
-	.box-1, .box-2, .box-3, .box-4 {
+	.box-1,
+	.box-2,
+	.box-3,
+	.box-4 {
 		width: 48%;
 		color: #68b400;
 	}
 }
+
 
 @media (min-width: 481px) and (max-width: 768px) {
 	body {
@@ -25,18 +35,34 @@
 	}
 }
 
+
+/*
 @media (min-width: 481px) and (max-width: 768px) {
-	.box-1, .box-2, .box-3, .box-4 {
+	.box-1,
+	.box-2,
+	.box-3,
+	.box-4 {
 		width: 100%;
 		color: #c92727;
-		font-size: 1.7em;
-		
+		font-size: 36px;
 	}
 }
+*/
+
+@media (min-device-width: 481px) and (max-device-width: 768px) {
+	.box-1,
+	.box-2,
+	.box-3,
+	.box-4 {
+		width: 100%;
+		color: #c92727;
+		font-size: 36px;
+	}
+}
+
 
 /*jak coś nie działa 
 - czy zapisane pliki
 - czy podpięty
 - odświerzamy
 - literówki*/
-
